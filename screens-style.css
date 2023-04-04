@@ -1,4 +1,4 @@
-@media screen and (width <=992px) {
+@media screen and (max-width:992px) {
 
     #margen-5 {
         height: 80%;
@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (width <=768px) {
+@media screen and (max-width:768px) {
 
     #margen-5 {
         height: 85%;
@@ -29,7 +29,7 @@
     }
 }
 
-@media screen and (width <=576px) {
+@media screen and (max-width:576px) {
 
     #margen-5 {
         height: 90%;
@@ -42,9 +42,7 @@
     }
 }
 
-@media screen and (width <=375px) {
-
-
+@media screen and (max-width:375px) {
     main p {
         font-size: 15px;
         font-weight: bold;

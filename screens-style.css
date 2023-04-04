@@ -1,0 +1,52 @@
+@media screen and (width <=992px) {
+
+    #margen-5 {
+        height: 80%;
+        width: 80%;
+
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    /* main #svg {
+        margin-bottom: -125px;
+    } */
+
+    main svg {
+        width: 75vw;
+    }
+
+    main a {
+        margin: 45px;
+    }
+}
+
+@media screen and (width <=768px) {
+
+    #margen-5 {
+        height: 85%;
+        width: 80%;
+    }
+}
+
+@media screen and (width <=576px) {
+
+    #margen-5 {
+        height: 90%;
+        width: 85%;
+    }
+
+    main p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (width <=375px) {
+
+
+    main p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
